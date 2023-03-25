@@ -20,11 +20,6 @@ def introduction():
     )
     st.subheader(
         """
-        This article  seeks to explore the potential for mobile financial services to empower financial inclusion.
-        """
-    )
-    st.subheader(
-        """
         What is financial inclusion?
         "Refers to  availability and accessibility of affordable financial services to individuals and businesses, especially those who are excluded or underserved by traditional financial institutions. It aims to provide access to financial services such as savings, credit, insurance, and payments to low-income individuals and businesses, enabling them to manage their financial lives effectively and participate fully in the economy."
         """
