@@ -290,7 +290,7 @@ def Mobile_VS_Traditional():
     st.subheader(
         """
         Let us take a look at mobile money usage compared with traditional means.
-        In today's digital age, more and more people are turning to mobile phones as a means of managing their finances. In the Philippines, data shows that a significant number of people have used their mobile phones for in-store purchases and to access mobile banking services. However, despite the growing popularity of mobile banking, many people still prefer traditional financial institutions.
+        In today's digital age, more and more people are turning to mobile phones as a means of managing their finances. In the Philippines, data show that a significant number of people have used their mobile phones for in-store purchases and to access mobile banking services. However, despite the growing popularity of mobile banking, many people still prefer traditional financial institutions.
         """
     )
 
@@ -365,7 +365,7 @@ def Mobile_VS_Traditional():
     st.markdown(
         """
         Despite the growing popularity of mobile banking, traditional financial institutions still hold significant appeal among the Filipino population. In fact, 98% of those who store money with traditional accounts have mobile devices, indicating that most Filipinos still prefer to use traditional accounts over mobile banking.
-        The data also shows that 16% of the sample used a mobile account to store money, indicating a gap in knowledge or access to mobile banking services.
+        The data also show that 16% of the sample used a mobile account to store money, indicating a gap in knowledge or access to mobile banking services.
         """
     )
     st.metric(label="Percentage of those with traditional account that have mobile devices.", value=98)
@@ -418,7 +418,7 @@ def Mobile_VS_Traditional():
 
     st.subheader(
         """
-        In terms of borrowing money, the data shows that 93% of Filipino borrowers prefer other means than mobile banking, with 3 out of 4 of those borrowers preferring to borrow from family or friends.
+        In terms of borrowing money, the data show that 93% of Filipino borrowers prefer other means than mobile banking, with 3 out of 4 of those borrowers preferring to borrow from family or friends.
         These are usually middle to rich income, educated, and employed people. This could be an opportunity for employers to take advantage of by collaborating with mobile banking providers to offer exclusive loan products, discounts, or incentives.
         """
     )
@@ -427,29 +427,54 @@ def Insights_and_reco():
     st.title(
         """
         Let's go back to The Question: How do we empower financial inclusion through mobile financial services?
+        
         """
     )
-    st.subheader(
+    st.header(
         """
         For Paying: Continue to leverage the acceptance of mobile payment by consumers and merchants
-        Focus on MSMEs for merchants:\n
-            Credit Lines\n
-            Lower Onboarding Fees\n
-            Business Analytics
+        """
+    )
+    st.markdown(
+        """
+        As technology continues to advance, more and more services are becoming available for small business owners in third world countries to help them manage and grow their businesses. In particular, credit lines, lower onboarding fees, and business analytics are all important services that can help merchants from lower-income demographics succeed in today's competitive marketplace. These services are particularly useful when accessed through mobile phones, which can make them more accessible and convenient for busy entrepreneurs on the go.
+        
+        - Credit Lines: Credit lines provide access to working capital that can be used to pay for inventory, equipment, and other business expenses. One example of a company that offers credit lines is is Tala, which offers loans up to KES 30,000 (approximately $300) and has a mobile app that can be used to apply for a loan and track your progress in Kenya, Tanzania, the Philippines, Mexico, and India.
+        
+        - Lower onboarding fees: PayPal and PayFast are two companies that offer lower onboarding fees to merchants from third world countries. Both companies charge a flat rate of 3.5% plus ZAR 2 (approximately \$0.14) per transaction for PayFast and 5% plus $0.30 per transaction for PayPal. PayPal is available in over 200 countries and territories, while PayFast is available in South Africa, Namibia, and Botswana. Both PayPal and PayFast have mobile apps that can be used to manage your account and process payments.
+        
+        - Business Analytics:  QuickBooks and Zoho Books are two examples of accounting software that offer business analytics tools. Both companies provide reports on income, expenses, profits, and cash flow, as well as insights into customer behavior. QuickBooks is available in over 100 countries, including Kenya, Nigeria, and India, and has a mobile app that can be used to manage your finances and generate reports. Zoho Books is available in over 200 countries and has a mobile app that can be used to manage your finances and generate reports.
+        """
+    )
+
+    st.subheader(
+        """
+        For Saving: Incentivize savings
+        """
+    )
+    st.markdown(
+        """
+        - Nano Loans: Another strategy is to offer financial incentives for saving. For example, some mobile wallet providers offer cashback or discounts for users who save a certain amount of money each month. Telenor Microfinance Bank in Pakistan has a "Nano Loan" feature that allows users to borrow a small amount of money if they have saved a certain amount in their mobile wallet.
+
+        - Automated savings: Some mobile wallet providers offer automated savings features that round up transactions and deposit the spare change into a savings account. For example, the Indonesian fintech company Jenius offers a "Dream Saver" feature that rounds up transactions to the nearest multiple of 1,000 rupiah and deposits the extra funds into a savings account.
+        """
+    )
+
+    st.subheader(
+        """
+        For Borrowing: Engage partnerships between employers and mobile banking providers
+        """
+    )
+    st.markdown(
+        """
+        - Salary advances: Salary advance programs allow employees to access a portion of their earned wages before payday. Mobile-based salary advance programs can provide low-cost borrowing options for low-income individuals. For example, the Indian mobile wallet provider EarlySalary offers salary advance loans to users based on their salary history and transaction data.
+
+        - Group lending: Group lending programs allow low-income individuals to pool their resources and borrow money together. For example, the Kenyan startup Maisha Meds offers a mobile-based group lending program that allows low-income individuals to access loans for healthcare expenses.
         """
     )
     st.subheader(
         """
-        For Saving: Incentivize savings:\n
-            Nano-loans for regular savers\n
-            Automated micro savings by rounding off
-        """
-    )
-    st.subheader(
-        """
-        For Borrowing: Engage partnerships between employers and mobile banking providers:\n
-            Salary advances\n
-            Mobile-based group lending (i.e., Health Related Emergencies)
+        Our point in sharing specific examples is that these things have worked from a business standpoint. We want to empower low income people but not at the expense of the business.
         """
     )
 
